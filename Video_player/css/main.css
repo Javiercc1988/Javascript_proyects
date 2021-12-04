@@ -1,0 +1,71 @@
+/* General */
+
+* {
+    box-sizing: border-box;
+}
+
+/* El box-sizing lo ponemos para limitar al tamaño natural del elemento para que el no crezca más del tamaño natural*/
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(73, 57, 57);
+    font-family: sans-serif;
+}
+
+/* Player */
+
+.player {
+    background-color: #123456;
+    box-shadow: 2px 2px 1rem black;
+    max-width: 1280px;
+    min-width: 320px;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.video {
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Controls */
+
+.controls>* {
+    cursor: pointer;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+}
+
+.button i {
+    font-size: 2rem;
+    color: white;
+    transition: .5s all ease;
+}
+
+.button i:hover{
+    color: #059c76;
+}
+
+.progress {
+    flex-grow: 1;
+    /* Hacemos que crezca la barra todo el espacio restante */
+}
+
+.timestamp {
+    font-size: 1.2rem;
+}

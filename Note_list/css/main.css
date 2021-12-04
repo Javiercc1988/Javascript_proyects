@@ -1,0 +1,83 @@
+/* General */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(217, 234, 247, 0.61);
+    font-family: sans-serif;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.oculto {
+    display: none;
+}
+
+/* Crear notas */
+.control {
+    padding: 1rem;
+    background-color: #123456;
+    text-align: center;
+}
+
+.crear {
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+    font-size: 1.4rem;
+    padding: .8rem;
+    border-radius: .3rem;
+}
+
+.crear i {
+    margin-right: .5rem;
+}
+
+/* Listado de notas */
+.notas {
+    padding: 1rem;
+}
+
+.nota {
+    background-color: white;
+
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 2px black;
+    font-size: 1.5rem;
+}
+
+.acciones {
+    background-color: #123456;
+    margin-bottom: .3rem;
+    padding: .3rem;
+    text-align: right;
+}
+
+.acciones i {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.edicion {
+    border: 1;
+    width: 100%;
+    min-height: 15rem;
+    font-size: 1.5rem;
+    padding: .3rem;
+}
+
+.resultado {
+    min-height: 15rem;
+}

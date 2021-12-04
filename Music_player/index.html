@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="script/main.js" defer></script>
+    <title>Mp3 Music Player</title>
+  </head>
+  <body>
+    <!-- Player -->
+    <main class="player">
+      <!-- tittle -->
+      <h1 class="title" id="title"></h1>
+
+      <!-- Audio HTML -->
+      <audio src="" id="audio"></audio>
+
+      <!-- Image Songs -->
+      <img class="cover" src="img/1.jpeg" id="cover" />
+
+      <!-- Progress Bar -->
+      <div class="progress-container" id="progress-container">
+        <section class="progress" id="progress"></section>
+      </div>
+
+      <!-- Audio Controls -->
+      <div class="controls">
+        <button class="prev">
+          <i id="prev" class="fa-solid fa-backward-step"></i>
+        </button>
+
+        <button class="play">
+          <i id="play" class="fas fa-play"></i>
+        </button>
+
+        <button class="next">
+          <i id="next" class="fa-solid fa-forward-step"></i>
+        </button>
+      </div>
+
+      <!-- Controls Close -->
+      <ul class="songs" id="songs"></ul>
+    </main>
+    <!-- Player Close -->
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/main.js" defer></script>
+    <title>Custom Video Player</title>
+  </head>
+  <body>
+    <!-- Player -->
+    <main class="player">
+      <video
+        src="./video/248558_Cat_Climbing_Stairs_Walking_by_Timothy_McGlinchey_Artgrid-HD_H264-HD.mp4"
+        poster="img/cat.png"
+        class="video"
+      ></video>
+      <!-- Controls -->
+      <nav class="controls">
+        <button class="button play">
+          <i class="far fa-play-circle"></i>
+        </button>
+        <button class="button stop">
+          <i class="far fa-stop-circle"></i>
+        </button>
+        <input
+          type="range"
+          min="0"
+          max="100"
+          step="0.1"
+          value="0"
+          class="progress"
+        />
+        <small class="timestamp"> 00:00 </small>
+      </nav>
+    </main>
+  </body>
+</html>
